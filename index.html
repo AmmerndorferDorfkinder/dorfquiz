@@ -167,8 +167,9 @@
       margin-bottom: .4rem;
     }
     .question-text {
-      font-family: 'Amatic SC', cursive;
-      font-size: 1.65rem;
+      font-family: 'Nunito', 'Segoe UI', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
       color: var(--text);
       line-height: 1.35;
       margin-bottom: 1.4rem;
@@ -204,6 +205,7 @@
       line-height: 1.7;
     }
     .help-box.visible { display: block; }
+    .help-image { display: block; max-width: 100%; max-height: 24rem; height: auto; margin: .9rem auto 0; border-radius: 8px; }
     .nav-row { max-width: 680px; width: 100%; margin-top: 1.2rem; display: flex; gap: .75rem; }
     .btn {
       font-family: 'Nunito', sans-serif;
@@ -284,7 +286,7 @@
       { info_title: "Das Bürgerhaus",
         info_text: "Früher als Turnhalle genutzt, kommen heute hier die Bürger und Bürgerinnen aus Ammerndorf und der Umgebung zusammen, um sich zu begegnen. Hier wird auch Theater gespielt, bei Kaffee und Kuchen geplaudert und auch weiterhin Sport betrieben. Abends kommt der Gemeinderat zusammen, um sich zu beraten und Entscheidungen über die Ammerndorfer Gegenwart und Zukunft zu treffen.",
         question: "Wo befindet sich das Haus, in dem landwirtschaftliche Maschinen zum Dreschen von Getreide aufbewahrt wurden?",
-        help: "Das Gebäude findest du, wenn du den landwirtschaftlichen Weg beim Bürgerhaus in Richtung zum neuen Friedhof weitergehst." },
+        help: "Das Dreschmaschinenhaus findest du, wenn du dem gepflasterten Weg in Richtung des neuen Friedhofs und des Sommerkellers folgst." },
       { info_title: "Das Dreschmaschinenhaus",
         info_text: `<p>Wie der Name verrät, wurden hier früher landwirtschaftliche Maschinen und Geräte zum Dreschen von Getreide aufbewahrt. Dabei werden die Körner mit verschiedenen Dreschtrommeln von den Getreidehalmen getrennt und somit konnten die Körner in Säcke gefüllt werden. Früher haben sich mehrere Bauern aus Ammerndorf zusammengetan und gemeinsam eine dampfbetriebene Dreschmaschine gekauft. Damit ging das Dreschen viel schneller und leichter als mit der Hand und den Dreschflegeln.</p>
         <p>Heute wird das Dreschmaschinenhaus vom Heimat- und Gartenbauverein genutzt. Dort finden verschiedene Veranstaltungen statt. Zum Beispiel wird gemeinsam Brot gebacken und jedes Jahr gibt es das bekannte Holunderfest, wo es leckere gebackene Holunderblüten und sonstige Köstlichkeiten gibt. Außerdem startet hier der Grippenweg, welcher jedes Jahr in der Adventszeit stattfindet.</p>`,
@@ -297,20 +299,21 @@
       { info_title: "Die Ammerndorfer Mühle",
         info_text: `<p>Neben der Bubenmühle gibt es in Ammerndorf noch eine zweite Mühle: die Ammerndorfer Mühle. Seit über 400 Jahren wird hier Getreide zu Mehl gemahlen. Seit 1878 gehört die Mühle der Familie Stinzendörfer. Heute führen Johann und Lisa Stinzendörfer den Familienbetrieb in der fünften Generation.</p>
         <p>Trotz ihres hohen Alters arbeitet die Mühle mit moderner Technik und stellt verschiedene Mehle her. Vielleicht habt ihr schon einmal etwas gegessen, das mit Mehl aus der Ammerndorfer Mühle gebacken wurde? Neben Mehl gibt es dort außerdem viele weitere Produkte, die man direkt im Mühlenladen kaufen kann.</p>`,
-        question: "Wo wurden früher Personen vorübergehend in Gewahrsam genommen?",
+        question: "Wo befindet sich das alte Feuerwehrhaus, das auch als Ortsarrest genutzt wurde?",
         help: "Das Gebäude ist auch ein altes Fachwerkhaus am Ende der Straße, in der sich auch die Mühle befindet." },
       { info_title: "Der Ortsarrest / das alte Feuerwehrhaus",
         info_text: `<p>Das alte Fachwerkhaus wurde mit Gründung der Feuerwehr in 1873 erbaut. Es wurde früher als Ortsarrest und Feuerwehrhaus gleichzeitig genutzt. Wenn jemand beispielsweise die damalige Sperrstunde nicht eingehalten hatte und die nächtliche Ruhe der Dorfbewohner störte, konnte die Person für kurze Zeit im Obergeschoss dieses Hauses eingesperrt werden. Am Fenster des oberen linken Zimmers ist auch heute noch das alte Gitter von der Zelle eingebaut! Das Gitter sollte verhindern, dass jemand einfach aus dem Fenster kletterte und davonlief.</p>
         <p>Unten im Gebäude befanden sich die Geräte, die die Feuerwehr benötigte. Damals gab es natürlich noch keine modernen Feuerwehrautos wie heute. Im Feuerwehrhaus stand unter anderem ein Feuerwehrwagen, der von Pferden gezogen wurde. Mit an Bord war eine Wasserpumpe, mit der die Feuerwehr Brände bekämpfen konnte. Auch eine Leiter, die von Pferden gezogen wurde, hatte die Feuerwehr zur Verfügung.</p>
         <p>Auf der anderen Straßenseite vom alten Feuerwehrhaus befindet sich der Steinhof, der früher als Kornlager genutzt wurde, weshalb er auch Kornschranne oder Zehntscheune genannt wurde. Dieses große Gebäude gehört zu den ältesten Gebäuden in Ammerndorf. Früher wurde dort Getreide von den Bauern aus den umliegenden Orten gelagert, um dann in Ammerndorf weiter verkauft werden zu können.</p>`,
-        question: "Wo findet traditionell in Ammerndorf der Markt statt?",
-        help: "Der Ort hat seinen Namen vom traditionellen Markt dort." },
+        question: "Wo fand in Ammerndorf traditionell der Markt statt?",
+        help: "Der Platz wird aufgrund des früheren Marktes auch so genannt: Marktplatz" },
       { info_title: "Der Marktplatz",
         info_text: `<p>Der Marktplatz ist ein wichtiger Treffpunkt mitten in Ammerndorf. Rundherum stehen viele wichtige Gebäude. Früher gab es hier zum Beispiel einen Dorfschmied, einen Lebensmittelladen, eine Metzgerei und eine Bäckerei. Auch heute gibt es hier noch ein Wirtshaus - den Gasthof zur Sonne - und die Ammerndorfer Brauerei, die erstmals 1505 urkundlich erwähnt wurde und deren heutiger Betrieb seit 1730 besteht.</p>
         <p>Ammerndorf hat schon seit sehr langer Zeit das Recht, Märkte zu veranstalten. Bereits seit ungefähr 1414 gibt es hier einen Jahrmarkt. Er fand jedes Jahr am 14. Oktober, dem Sankt-Burkhardstag, statt. Früher wurde auf dem Marktplatz auch Getreide verkauft. Bauern aus den umliegenden Orten brachten ihr Getreide nach Ammerndorf und boten es dort zum Verkauf an.</p>
         <p>Seit 1984 gibt es wieder den Herbstmarkt. Viele Ammerndorfer Vereine, Geschäfte und Schausteller machen dabei mit. Und auch Kinder können mitmachen: Auf dem Flohmarkt können sie ihre eigenen Sachen verkaufen.</p>`,
         question: "Wo befindet sich das Rathaus?",
-        help: "Das Rathaus befindet sich dort, wo die zwei größten Verkehrsstraßen in Ammerndorf sich treffen: die Rothenburger Straße und die Cadolzburger Straße." },
+        help: "Das Rathaus befindet sich dort, wo sich die zwei größten Straßen in Ammerndorf treffen: die Rothenburger Straße, die auch am Marktplatz vorbeiführt, und die Cadolzburger Straße, auf der man nach Cadolzburg gelangt.",
+        help_image: { src: "./assets/images/map_tipp_marktplatz.png", alt: "Karte als Hinweis zum Weg zum Rathaus" } },
       { info_title: "Das Rathaus",
         info_text: `<p>Seit 1998 kümmert sich Ammerndorf wieder selbst um viele wichtige Dinge im Ort. Und dafür gibt es unser Rathaus.</p>
         <p>Im Rathaus arbeiten die Bürgermeisterin und viele Mitarbeiterinnen und Mitarbeiter. Gemeinsam sorgen sie dafür, dass in Ammerndorf vieles gut klappt und unser Ort ein schöner Platz zum Leben bleibt.</p>
@@ -320,7 +323,7 @@
         help: "Das Feuerwehrhaus befindet sich neben dem Platz, auf dem auch die Kärwa stattfindet." },
       { info_title: "Die Freiwillige Feuerwehr Ammerndorf",
         info_text: "Seit Beginn der Ortschaft gibt es Vorkehrungen zum Schutz vor Feuer. Seit 1873 gibt es die \u201EFreiwillige Feuerwehr\u201C in Ammerndorf, die für das Retten, Löschen, Bergen, und Schützen der Bevölkerung verantwortlich ist. Seit 1997 befindet sich das Feuerwehrgerätehaus in dem mit dem Schützenverein geteilten Gebäude am Dullikener Platz. Es gibt auch eine Kinder- und Jugendfeuerwehr, in der spielerisch praktische Kenntnisse in Erster Hilfe, Brandbekämpfung, technischer Hilfeleistung und der Umgang mit Feuerwehrgeräten geschult wird.",
-        question: "Wo befindet sich früher der Eisenbahnhof in Ammerndorf?",
+        question: "Wo befand sich früher der Eisenbahnhof in Ammerndorf?",
         help: "Dort fährt heute kein Zug mehr ab, aber der Schulbus hält hier auch." },
       { info_title: "Der Bahnhofsplatz",
           info_text: `<p>Früher fuhr hier die Eisenbahn: die Bibertbahn. Die Orte im Biberttal konnten sich lange nicht darauf einigen, wo die Bahn genau fahren sollte. Schließlich war es so weit: Von 1914 bis 1986 fuhr die „Bibertbärbala“ zwischen Stein und Rügland.</p>
@@ -346,17 +349,43 @@
     const STATION_IMAGES = [
       [{ file: 'Bürgerhaus1.jpg', caption: 'Alte Turnhalle' }],
       [{ file: 'Dreschmaschinenhaus1.jpg', caption: 'Dreschen mit der dampfbetriebenen Dreschmaschine auf dem Bauernhof Friedlein, Jahr unbekannt' }],
-      [],
-      [{ file: 'Mühle1.jpg', caption: 'Stinzendörfer Mühle, 1922' }],
+      [
+        { file: 'Kirche1.jpg', caption: 'Kanzelaltar der Ammerndorfer Kirche', credit: 'Kroner 1989, Ammerndorf' },
+        { file: 'Kirche2.jpg', caption: 'Restaurierte Barockorgel aus dem Jahr 1775', credit: 'Kroner 1989, Ammerndorf' }
+      ],
+      [
+        { file: 'Mühle1.jpg', caption: 'Stinzendörfer Mühle, 1922' },
+        { file: 'Mühle2.jpg', caption: 'Mühle mit Schnitzfiguren. Zeichnung von Valentin Fürstenhöfer', credit: 'Kroner 1989, Ammerndorf' }
+      ],
       [{ file: 'Ortsarrest1.jpg', caption: 'Gegenüberliegender Steinhof (Kornschranne), 1937' }],
-      [],
-      [],
-      [],
+      [
+        { file: 'Marktplatz1.jpg', caption: 'Alte Schmiede auf dem Marktplatz um circa 1910', credit: 'Kroner 1989, Ammerndorf' },
+        { file: 'Marktplatz2.jpg', caption: 'Gasthaus "Zur Sonne" mit verputzten Fachwerk, 1930', credit: 'Kroner 1989, Ammerndorf' },
+        { file: 'Marktplatz3.jpg', caption: 'Wiederbelebter Herbstmark, 1980er Jahre', credit: 'Kroner 1989, Ammerndorf' }
+      ],
+      [
+        { file: 'Rathaus1.jpg', caption: 'Dieses Haus machte 1970 Platz für das Gebäude der Sparkasse und des Rathauses', credit: 'Kroner 1989, Ammerndorf' },
+        { file: 'Rathaus2.jpg', caption: 'Seit 1970 ist das Rathaus in diesem Gebäude. 2026 und 2027 wird die Sparkasse zum Teil des Rathauses umgebaut', credit: 'Kroner 1989, Ammerndorf' }
+      ],
+      [
+        { file: 'Feuerwehr1.jpg', caption: 'Feuerwehrkameraden der Freiwilligen Feuerwehr Ammerndorf', credit: 'Kroner 1989, Ammerndorf' },
+        { file: 'Feuerwehr2.jpg', caption: 'Jugendfeuerwehr bei einer Löschübung', credit: 'Freiwillige Feuerwehr Ammerndorf' }
+      ],
       [
         { file: 'Bahnhofsplatz1.jpg', caption: 'Bahnhof, 1986' },
         { file: 'Bahnhofsplatz2.jpg', caption: 'Molkerei, 1965' }
       ]
     ];
+
+    function escapeHTML(value) {
+      return value.replace(/[&<>"']/g, (character) => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      })[character]);
+    }
 
     const PROGRESS_STORAGE_KEY = 'dorfquiz_qr_progress_v1';
 
@@ -489,10 +518,13 @@
             : ``;
           const stationImages = STATION_IMAGES[currentStation - 1] || [];
           const imagesHTML = stationImages.length
-            ? `<div class="station-images">${stationImages.map((image, index) => `<figure><img src="./assets/images/${encodeURIComponent(image.file)}" alt="${st.info_title}, Bild ${index + 1}: ${image.caption}" loading="lazy"><figcaption>${image.caption}<span class="image-credit">Kroner 1989, Ammerndorf</span></figcaption></figure>`).join('')}</div>`
+            ? `<div class="station-images">${stationImages.map((image, index) => `<figure><img src="./assets/images/${encodeURIComponent(image.file)}" alt="${escapeHTML(`${st.info_title}, Bild ${index + 1}: ${image.caption}`)}" loading="lazy"><figcaption>${escapeHTML(image.caption)}<span class="image-credit">${escapeHTML(image.credit || 'Kroner 1989, Ammerndorf')}</span></figcaption></figure>`).join('')}</div>`
             : '';
           const audioHTML = stationAudio
             ? `<div class="audio-controls"><button class="audio-btn" type="button" data-audio-id="${currentStation}" onclick="toggleAudio(${currentStation})">🔊 Information als Audio abspielen</button><audio id="station-audio-${currentStation}" preload="metadata" src="./assets/audio/${stationAudio}"></audio></div>`
+            : '';
+          const helpImageHTML = st.help_image
+            ? `<img class="help-image" src="${st.help_image.src}" alt="${st.help_image.alt}">`
             : '';
           const allStationsVisited = scanProgress.visited.length === TOTAL;
           const nextHint = allStationsVisited
@@ -508,7 +540,7 @@
               <p class="question-label">❓ Frage</p>
               <p class="question-text">${st.question}</p>
               <button class="help-toggle" id="help-btn" onclick="toggleHelp()">💡 Hilfe anzeigen <span class="arrow">▼</span></button>
-              <div class="help-box" id="help-box">${st.help}</div>
+              <div class="help-box" id="help-box">${st.help}${helpImageHTML}</div>
               ${nextHint}
             </div>`;
 
