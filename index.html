@@ -533,10 +533,9 @@
 
           app.innerHTML = `
             <div class="card">
-              <div class="station-badge"><span class="dot"></span>${st.info_title || 'Start'}</div>
+              ${audioHTML}
               ${infoHTML}
               ${imagesHTML}
-              ${audioHTML}
               <p class="question-label">❓ Frage</p>
               <p class="question-text">${st.question}</p>
               <button class="help-toggle" id="help-btn" onclick="toggleHelp()">💡 Hilfe anzeigen <span class="arrow">▼</span></button>
