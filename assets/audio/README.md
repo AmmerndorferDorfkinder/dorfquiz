@@ -2,7 +2,7 @@
 
 Die derzeit vorhandenen Stationsaudios liegen in diesem Ordner und sind in `../../index.html` eingetragen:
 
-- Bürgerhaus, Station 1: fehlt noch
+- Bürgerhaus, Station 1: `Bürgerhaus_mp3.mp3`
 - Dreschmaschinenhaus, Station 2: `Dreschmaschinenhaus_mp3.mp3`
 - Kirche, Station 3: `Kirche_mp3.mp3`
 - Mühle, Station 4: `Mühle_mp3.mp3`
